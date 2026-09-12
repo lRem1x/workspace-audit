@@ -52,7 +52,7 @@ The ordering is the point. The first rows are what you do today; the rest is the
 ## Try it
 
 ```bash
-git clone https://github.com/IRem1x/workspace-audit.git
+git clone https://github.com/lRem1x/workspace-audit.git
 cd workspace-audit
 python -m workspace_audit --source mock
 ```
