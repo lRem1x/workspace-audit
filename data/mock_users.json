@@ -1,0 +1,665 @@
+{
+  "_comment": "Synthetic fixture. Every account, name and domain here is invented; it does not describe any real tenant. Timestamps are day offsets so the data never goes stale.",
+  "users": [
+    {
+      "primaryEmail": "anna.kovalenko@example.com",
+      "name": {
+        "fullName": "Anna Kovalenko"
+      },
+      "orgUnitPath": "/Employees/Support",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1346,
+      "lastLoginTimeDaysAgo": 14
+    },
+    {
+      "primaryEmail": "dmytro.shevchenko@example.com",
+      "name": {
+        "fullName": "Dmytro Shevchenko"
+      },
+      "orgUnitPath": "/Employees/Support",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1240,
+      "lastLoginTimeDaysAgo": 18
+    },
+    {
+      "primaryEmail": "olena.bondarenko@example.com",
+      "name": {
+        "fullName": "Olena Bondarenko"
+      },
+      "orgUnitPath": "/Employees/Marketing",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 578,
+      "lastLoginTimeDaysAgo": 16
+    },
+    {
+      "primaryEmail": "serhii.tkachenko@example.com",
+      "name": {
+        "fullName": "Serhii Tkachenko"
+      },
+      "orgUnitPath": "/Employees/Support",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 581,
+      "lastLoginTimeDaysAgo": 3
+    },
+    {
+      "primaryEmail": "kateryna.melnyk@example.com",
+      "name": {
+        "fullName": "Kateryna Melnyk"
+      },
+      "orgUnitPath": "/Employees/Support",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 821,
+      "lastLoginTimeDaysAgo": 4
+    },
+    {
+      "primaryEmail": "andrii.kravchuk@example.com",
+      "name": {
+        "fullName": "Andrii Kravchuk"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1303,
+      "lastLoginTimeDaysAgo": 20
+    },
+    {
+      "primaryEmail": "iryna.boyko@example.com",
+      "name": {
+        "fullName": "Iryna Boyko"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1011,
+      "lastLoginTimeDaysAgo": 14
+    },
+    {
+      "primaryEmail": "oleh.moroz@example.com",
+      "name": {
+        "fullName": "Oleh Moroz"
+      },
+      "orgUnitPath": "/Employees/Design",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 522,
+      "lastLoginTimeDaysAgo": 19
+    },
+    {
+      "primaryEmail": "yulia.lysenko@example.com",
+      "name": {
+        "fullName": "Yulia Lysenko"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1282,
+      "lastLoginTimeDaysAgo": 2
+    },
+    {
+      "primaryEmail": "maksym.petrenko@example.com",
+      "name": {
+        "fullName": "Maksym Petrenko"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 273,
+      "lastLoginTimeDaysAgo": 6
+    },
+    {
+      "primaryEmail": "nataliia.savchuk@example.com",
+      "name": {
+        "fullName": "Nataliia Savchuk"
+      },
+      "orgUnitPath": "/Employees/Marketing",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 261,
+      "lastLoginTimeDaysAgo": 14
+    },
+    {
+      "primaryEmail": "taras.rudenko@example.com",
+      "name": {
+        "fullName": "Taras Rudenko"
+      },
+      "orgUnitPath": "/Employees/Finance",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1102,
+      "lastLoginTimeDaysAgo": 18
+    },
+    {
+      "primaryEmail": "sofiia.hrytsenko@example.com",
+      "name": {
+        "fullName": "Sofiia Hrytsenko"
+      },
+      "orgUnitPath": "/Employees/Marketing",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1263,
+      "lastLoginTimeDaysAgo": 7
+    },
+    {
+      "primaryEmail": "vadym.ostapchuk@example.com",
+      "name": {
+        "fullName": "Vadym Ostapchuk"
+      },
+      "orgUnitPath": "/Employees/Finance",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1223,
+      "lastLoginTimeDaysAgo": 0
+    },
+    {
+      "primaryEmail": "marta.danylko@example.com",
+      "name": {
+        "fullName": "Marta Danylko"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1136,
+      "lastLoginTimeDaysAgo": 20
+    },
+    {
+      "primaryEmail": "ihor.zhuk@example.com",
+      "name": {
+        "fullName": "Ihor Zhuk"
+      },
+      "orgUnitPath": "/Employees/Finance",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1033,
+      "lastLoginTimeDaysAgo": 17
+    },
+    {
+      "primaryEmail": "daria.pavliuk@example.com",
+      "name": {
+        "fullName": "Daria Pavliuk"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 720,
+      "lastLoginTimeDaysAgo": 10
+    },
+    {
+      "primaryEmail": "bohdan.marchenko@example.com",
+      "name": {
+        "fullName": "Bohdan Marchenko"
+      },
+      "orgUnitPath": "/Employees/Marketing",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1250,
+      "lastLoginTimeDaysAgo": 9
+    },
+    {
+      "primaryEmail": "alina.korniienko@example.com",
+      "name": {
+        "fullName": "Alina Korniienko"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 343,
+      "lastLoginTimeDaysAgo": 18
+    },
+    {
+      "primaryEmail": "pavlo.sydorenko@example.com",
+      "name": {
+        "fullName": "Pavlo Sydorenko"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1020,
+      "lastLoginTimeDaysAgo": 3
+    },
+    {
+      "primaryEmail": "viktoriia.kovalenko@example.com",
+      "name": {
+        "fullName": "Viktoriia Kovalenko"
+      },
+      "orgUnitPath": "/Employees/Finance",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 991,
+      "lastLoginTimeDaysAgo": 2
+    },
+    {
+      "primaryEmail": "yurii.shevchenko@example.com",
+      "name": {
+        "fullName": "Yurii Shevchenko"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 201,
+      "lastLoginTimeDaysAgo": 6
+    },
+    {
+      "primaryEmail": "oksana.bondarenko@example.com",
+      "name": {
+        "fullName": "Oksana Bondarenko"
+      },
+      "orgUnitPath": "/Employees/Marketing",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 307,
+      "lastLoginTimeDaysAgo": 15
+    },
+    {
+      "primaryEmail": "roman.tkachenko@example.com",
+      "name": {
+        "fullName": "Roman Tkachenko"
+      },
+      "orgUnitPath": "/Employees/Support",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1013,
+      "lastLoginTimeDaysAgo": 13
+    },
+    {
+      "primaryEmail": "liliia.melnyk@example.com",
+      "name": {
+        "fullName": "Liliia Melnyk"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1359,
+      "lastLoginTimeDaysAgo": 20
+    },
+    {
+      "primaryEmail": "artem.kravchuk@example.com",
+      "name": {
+        "fullName": "Artem Kravchuk"
+      },
+      "orgUnitPath": "/Employees/Marketing",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 752,
+      "lastLoginTimeDaysAgo": 10
+    },
+    {
+      "primaryEmail": "roman.adminenko@example.com",
+      "name": {
+        "fullName": "Roman Adminenko"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": true,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 378,
+      "lastLoginTimeDaysAgo": 0
+    },
+    {
+      "primaryEmail": "oleksii.verkhovyna@example.com",
+      "name": {
+        "fullName": "Oleksii Verkhovyna"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": true,
+      "isEnrolledIn2Sv": false,
+      "isEnforcedIn2Sv": false,
+      "creationTimeDaysAgo": 881,
+      "lastLoginTimeDaysAgo": 3
+    },
+    {
+      "primaryEmail": "lesia.chornobai@example.com",
+      "name": {
+        "fullName": "Lesia Chornobai"
+      },
+      "orgUnitPath": "/Employees/Finance",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": true,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1039,
+      "lastLoginTimeDaysAgo": 214
+    },
+    {
+      "primaryEmail": "vitalii.zabuha@example.com",
+      "name": {
+        "fullName": "Vitalii Zabuha"
+      },
+      "orgUnitPath": "/Employees/Marketing",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 475,
+      "lastLoginTimeDaysAgo": 311
+    },
+    {
+      "primaryEmail": "nadiia.prystupa@example.com",
+      "name": {
+        "fullName": "Nadiia Prystupa"
+      },
+      "orgUnitPath": "/Employees/Support",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 406,
+      "lastLoginTimeDaysAgo": 178
+    },
+    {
+      "primaryEmail": "stepan.holoborodko@example.com",
+      "name": {
+        "fullName": "Stepan Holoborodko"
+      },
+      "orgUnitPath": "/Contractors",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 322,
+      "lastLoginTimeDaysAgo": 129
+    },
+    {
+      "primaryEmail": "ruslana.vovchok@example.com",
+      "name": {
+        "fullName": "Ruslana Vovchok"
+      },
+      "orgUnitPath": "/Employees/Design",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1197,
+      "lastLoginTimeDaysAgo": 97
+    },
+    {
+      "primaryEmail": "yaroslav.nedbailo@example.com",
+      "name": {
+        "fullName": "Yaroslav Nedbailo"
+      },
+      "orgUnitPath": "/Contractors",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 260,
+      "lastLoginTimeDaysAgo": -1
+    },
+    {
+      "primaryEmail": "sofiia.novachok@example.com",
+      "name": {
+        "fullName": "Sofiia Novachok"
+      },
+      "orgUnitPath": "/Employees/Engineering",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 5,
+      "lastLoginTimeDaysAgo": -1
+    },
+    {
+      "primaryEmail": "hryhorii.vidhuk@example.com",
+      "name": {
+        "fullName": "Hryhorii Vidhuk"
+      },
+      "orgUnitPath": "/Employees/Marketing",
+      "suspended": true,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 590,
+      "lastLoginTimeDaysAgo": 146
+    },
+    {
+      "primaryEmail": "kateryna.zvilnena@example.com",
+      "name": {
+        "fullName": "Kateryna Zvilnena"
+      },
+      "orgUnitPath": "/Employees/Support",
+      "suspended": true,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1058,
+      "lastLoginTimeDaysAgo": 402
+    },
+    {
+      "primaryEmail": "petro.arkhivnyi@example.com",
+      "name": {
+        "fullName": "Petro Arkhivnyi"
+      },
+      "orgUnitPath": "/Employees/Finance",
+      "suspended": true,
+      "archived": true,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 985,
+      "lastLoginTimeDaysAgo": 520
+    },
+    {
+      "primaryEmail": "bohdana.bezkodu@example.com",
+      "name": {
+        "fullName": "Bohdana Bezkodu"
+      },
+      "orgUnitPath": "/Employees/Design",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": false,
+      "isEnforcedIn2Sv": false,
+      "creationTimeDaysAgo": 1008,
+      "lastLoginTimeDaysAgo": 2
+    },
+    {
+      "primaryEmail": "illia.nezakhyshchenyi@example.com",
+      "name": {
+        "fullName": "Illia Nezakhyshchenyi"
+      },
+      "orgUnitPath": "/Employees/Marketing",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": false,
+      "isEnforcedIn2Sv": false,
+      "creationTimeDaysAgo": 635,
+      "lastLoginTimeDaysAgo": 11
+    },
+    {
+      "primaryEmail": "backup.service@example.com",
+      "name": {
+        "fullName": "Backup Service"
+      },
+      "orgUnitPath": "/Service accounts",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": false,
+      "isEnforcedIn2Sv": false,
+      "creationTimeDaysAgo": 752,
+      "lastLoginTimeDaysAgo": 46
+    },
+    {
+      "primaryEmail": "billing.service@example.com",
+      "name": {
+        "fullName": "Billing Service"
+      },
+      "orgUnitPath": "/Service accounts",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": false,
+      "isEnforcedIn2Sv": false,
+      "creationTimeDaysAgo": 680,
+      "lastLoginTimeDaysAgo": -1
+    },
+    {
+      "primaryEmail": "support.mailbox@example.com",
+      "name": {
+        "fullName": "Support Mailbox"
+      },
+      "orgUnitPath": "/Shared mailboxes",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 631,
+      "lastLoginTimeDaysAgo": 1
+    },
+    {
+      "primaryEmail": "careers.mailbox@example.com",
+      "name": {
+        "fullName": "Careers Mailbox"
+      },
+      "orgUnitPath": "/Shared mailboxes",
+      "suspended": false,
+      "archived": false,
+      "isAdmin": false,
+      "isDelegatedAdmin": false,
+      "isEnrolledIn2Sv": true,
+      "isEnforcedIn2Sv": true,
+      "creationTimeDaysAgo": 1007,
+      "lastLoginTimeDaysAgo": 88
+    }
+  ]
+}
