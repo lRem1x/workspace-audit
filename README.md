@@ -1,4 +1,4 @@
-﻿# workspace-audit
+# workspace-audit
 
 Finds dormant licences and 2-step verification gaps in a Google Workspace tenant, and writes the result as a CSV you can hand to a manager or a finance team.
 
@@ -12,7 +12,7 @@ In a tenant of a couple of hundred accounts, three things quietly go wrong:
 
 - **People stop using accounts, but the licences keep billing.** Nobody notices, because nothing breaks.
 - **Suspended accounts still hold a paid licence** until somebody archives or deletes them. Offboarding usually stops at "suspended".
-- **Privileged accounts drift out of 2SV coverage** вЂ” a super admin without 2-step verification is the single worst finding in a Workspace tenant, and the admin console does not put it in front of you.
+- **Privileged accounts drift out of 2SV coverage** - a super admin without 2-step verification is the single worst finding in a Workspace tenant, and the admin console does not put it in front of you.
 
 The Admin console can answer each of these one screen at a time. It cannot produce a single sorted list of what to act on this week, and it cannot be scheduled.
 
@@ -43,9 +43,9 @@ And a CSV, worst findings first:
 
 | email | org_unit | status | admin | 2sv | last_login | days | flags | recommendation |
 |---|---|---|---|---|---|---|---|---|
-| oleksii.verkhovyna@вЂ¦ | /Employees/Engineering | active | yes | off | 2026-09-09 | 3 | `NO_2SV;ADMIN_WITHOUT_2SV` | Enforce 2SV before anything else |
-| yaroslav.nedbailo@вЂ¦ | /Contractors | active | no | on | never | | `NEVER_LOGGED_IN` | Confirm the account is still needed |
-| kateryna.zvilnena@вЂ¦ | /Employees/Support | suspended | no | on | 2025-08-06 | 402 | `INACTIVE;SUSPENDED_NOT_ARCHIVED` | Archive or delete вЂ” still holds a paid licence |
+| oleksii.verkhovyna@... | /Employees/Engineering | active | yes | off | 2026-09-09 | 3 | `NO_2SV;ADMIN_WITHOUT_2SV` | Enforce 2SV before anything else |
+| yaroslav.nedbailo@... | /Contractors | active | no | on | never | | `NEVER_LOGGED_IN` | Confirm the account is still needed |
+| kateryna.zvilnena@... | /Employees/Support | suspended | no | on | 2025-08-06 | 402 | `INACTIVE;SUSPENDED_NOT_ARCHIVED` | Archive or delete - still holds a paid licence |
 
 The ordering is the point. The first rows are what you do today; the rest is the backlog.
 
@@ -73,7 +73,7 @@ Read-only, by design. The tool never writes to Workspace.
 
 1. Create a GCP project and a service account.
 2. Enable the **Admin SDK API**.
-3. In `Admin console в†’ Security в†’ Access and data control в†’ API controls в†’ Domain-wide delegation`, authorise the service account's client ID for one scope:
+3. In `Admin console -> Security -> Access and data control -> API controls -> Domain-wide delegation`, authorise the service account's client ID for one scope:
    ```
    https://www.googleapis.com/auth/admin.directory.user.readonly
    ```
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 python -m workspace_audit --source api --days 90
 ```
 
-> The service account key is a credential. Keep it outside the repository вЂ” `.gitignore` already excludes `*.json` at the root and the `credentials/` directory.
+> The service account key is a credential. Keep it outside the repository - `.gitignore` already excludes `*.json` at the root and the `credentials/` directory.
 
 ## Checks
 
@@ -108,17 +108,17 @@ Two deliberate exceptions, both of which exist because the first version produce
 
 ```
 workspace_audit/
-в”њв”Ђв”Ђ models.py            WorkspaceUser + Admin SDK timestamp parsing
-в”њв”Ђв”Ђ sources/
-в”‚   в”њв”Ђв”Ђ base.py          the interface every source implements
-в”‚   в”њв”Ђв”Ђ google_api.py    live tenant, paginated, read-only scope
-в”‚   в””в”Ђв”Ђ mock.py          local JSON fixture
-в”њв”Ђв”Ђ analyze.py           all the rules live here
-в”њв”Ђв”Ђ report.py            CSV + console summary
-в””в”Ђв”Ђ cli.py               argument parsing
+  models.py            WorkspaceUser + Admin SDK timestamp parsing
+  sources/
+    base.py            the interface every source implements
+    google_api.py      live tenant, paginated, read-only scope
+    mock.py            local JSON fixture
+  analyze.py           all the rules live here
+  report.py            CSV + console summary
+  cli.py               argument parsing
 ```
 
-Sources are swappable because analysis and reporting never see where the data came from. That is what makes the offline mode possible without a parallel code path, and it is what would make a second source вЂ” an exported CSV, a different provider вЂ” a single file rather than a rewrite.
+Sources are swappable because analysis and reporting never see where the data came from. That is what makes the offline mode possible without a parallel code path, and it is what would make a second source - an exported CSV, a different provider - a single file rather than a rewrite.
 
 ## Notes from building it
 
@@ -138,7 +138,7 @@ python -m pytest -q
 
 ## Data
 
-`data/mock_users.json` is entirely synthetic вЂ” invented names on `example.com`. Timestamps are stored as day offsets rather than fixed dates, so the fixture never goes stale: an account that is "120 days dormant" stays 120 days dormant whenever you run it.
+`data/mock_users.json` is entirely synthetic - invented names on `example.com`. Timestamps are stored as day offsets rather than fixed dates, so the fixture never goes stale: an account that is "120 days dormant" stays 120 days dormant whenever you run it.
 
 ## Licence
 
